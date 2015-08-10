@@ -47,5 +47,3 @@ for version in VERSIONS:
         link = re.sub(r"\#VERSION\#", version, link)
         link = re.sub(r"\#SLASHED_VERSION\#", slashed_version, link)
         process(link, slashed_version, platform)
-        break
-    break
